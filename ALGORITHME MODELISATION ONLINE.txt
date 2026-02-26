@@ -1,0 +1,5 @@
+EXEMPLE 1 :
+https://mermaid.live/edit#pako:eNpVjT1vgzAURf-K9aZWIpEBkw8PlRrSZonUDpkKGazwwKjBRsYoTYH_XkMUtfXkq3PufR2cdIbAIT_ry0kKY8lhmyri3nMSS1M2thLNkcxmT_0OLam0wmtPNg87TRqp67pUxePN34wSibv9qCGxslSfww3FU_9NYU-2yV7UVtfHv-Rw0T15Scp36eb_E2nQtV6TXPBczE7CkFiYSQEPClNmwK1p0YMKTSXGCN1IU7ASK0yBu2-GuWjPNoVUDa5WC_WhdXVvGt0WEtz8uXGprTNhcVuKwohfBVWGJtatssCDaJoA3sGXS8vF3GfMZ4swXNBoxZgHV-ChP6eBHzE_pCFdUxYMHnxPR-l8tYwopQENV36wXgbR8AM0HXa1
+
+EXEMPLE 2 :
+https://mermaid.ai/app/projects/8a817d07-72ec-4492-a1ca-2f4e092b380d/diagrams/24b97db1-181d-49bf-85d6-ec474c659243/version/v0.1/edit
