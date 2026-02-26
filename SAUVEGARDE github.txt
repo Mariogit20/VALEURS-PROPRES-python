@@ -1,0 +1,134 @@
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20
+$ git init
+Initialized empty Git repository in D:/PYTHON DJANGO HOPES/github20/.git/
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20 (master)
+$ git clone https://github.com/Mariogit20/VALEURS-PROPRES-python.git
+Cloning into 'VALEURS-PROPRES-python'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20 (master)
+$ cd VALEURS-PROPRES-python.git
+bash: cd: VALEURS-PROPRES-python.git: No such file or directory
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20 (master)
+$ cd VALEURS-PROPRES-python
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git add *
+The following paths are ignored by one of your .gitignore files:
+env
+hint: Use -f if you really want to add them.
+hint: Disable this message with "git config advice.addIgnoredFile false"
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git commit -m "first commit"
+[main 88b42f1] first commit
+ 19 files changed, 500 insertions(+)
+ create mode 100644 1chatGPT 5.2 Thinking.docx
+ create mode 100644 1chatGPT 5.2 Thinking.pdf
+ create mode 100644 2chatGPT 5.2 Thinking.docx
+ create mode 100644 2chatGPT 5.2 Thinking.pdf
+ create mode 100644 3gemini 3.1 Pro.docx
+ create mode 100644 3gemini 3.1 Pro.pdf
+ create mode 100644 4EXEMPLE.docx
+ create mode 100644 4EXEMPLE.pdf
+ create mode 100644 4gemini 3.1 Pro.docx
+ create mode 100644 4gemini 3.1 Pro.pdf
+ create mode 100644 A TESTER l Affichage d un GRAPHIQUE.docx
+ create mode 100644 A TESTER l Affichage d un GRAPHIQUE.pdf
+ create mode 100644 ALGORITHME MODELISATION ONLINE - Mermaid Live Editor.docx
+ create mode 100644 ALGORITHME MODELISATION ONLINE - Mermaid Live Editor.pdf
+ create mode 100644 ALGORITHME MODELISATION ONLINE.txt
+ create mode 100644 Figure_1_VECTEURS_PROPRES.png
+ create mode 100644 VALEURS PROPRES python.mkv
+ create mode 100644 requirements.txt
+ create mode 100644 valeurs_propres.py
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git push
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 69.81 MiB | 12.36 MiB/s, done.
+Total 21 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git config --global http.postBuffer 524288000
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git push
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 69.81 MiB | 12.04 MiB/s, done.
+Total 21 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+error: RPC failed; HTTP 408 curl 22 The requested URL returned error: 408
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git config --global http.lowSpeedLimit 1000
+git config --global http.lowSpeedTime 600
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git remote set-url origin git@github.com:Mariogit20/VALEURS-PROPRES-python.git
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git remote -v
+origin  git@github.com:Mariogit20/VALEURS-PROPRES-python.git (fetch)
+origin  git@github.com:Mariogit20/VALEURS-PROPRES-python.git (push)
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git push -u origin main
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 69.81 MiB | 45.00 KiB/s, done.
+Total 21 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote: warning: See https://gh.io/lfs for more information.
+remote: warning: File VALEURS PROPRES python.mkv is 68.49 MB; this is larger tha
+n GitHub's recommended maximum file size of 50.00 MB
+remote: warning: GH001: Large files detected. You may want to try Git Large File
+ Storage - https://git-lfs.github.com.
+To github.com:Mariogit20/VALEURS-PROPRES-python.git
+   e88f178..88b42f1  main -> main
+branch 'main' set up to track 'origin/main'.
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git add .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git commit -m "Ajout gitignore"
+[main 7d7fed2] Ajout gitignore
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Mariogit20/VALEURS-PROPRES-python.git
+   88b42f1..7d7fed2  main -> main
+
+AzureAD+SPSSE02MEN@DESKTOP-S95K8U0 MINGW64 /d/PYTHON DJANGO HOPES/github20/VALEURS-PROPRES-python (main)
+$
